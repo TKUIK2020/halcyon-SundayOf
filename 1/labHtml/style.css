@@ -51,3 +51,15 @@ h1{
 	text-align: center;
 	font-family: 'Merriweather' , bold;
 }
+.code1{
+	background-color: #23272f;
+	padding-left:5px;
+	padding-top:5px;
+	margin: 1px;
+	width: 21px;
+	height: 20px;
+	border-radius: 50%;
+}
+.code1:hover{
+	background-color:#57d0bd;
+}
