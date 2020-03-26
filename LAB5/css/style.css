@@ -1,4 +1,8 @@
-body{background-color: #F4F4F4;}
+body
+{
+	background-color: #F4F4F4;
+	height: 115%;
+}
 
 .MainBox
 	{
@@ -12,6 +16,7 @@ body{background-color: #F4F4F4;}
 	font-family: 'Caveat';
 	font-size: 25px;
 	font-weight: bold;
+	text-align: center;
 	}
 .code1{
 	background-color: #23272f;
@@ -84,4 +89,43 @@ body{background-color: #F4F4F4;}
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
+}
+
+
+
+
+
+
+
+h1{
+	text-align: center;
+	color: #353535;
+	font-family: 'Merriweather' , bold;
+}
+.computer{
+
+	font-size: 30px;
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+}
+.heart{
+
+	font-size: 30px;
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+}
+.secondbox{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.box1{
+
+	color: #8c9398;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	font-family: 'Merriweather' , bold;
 }
