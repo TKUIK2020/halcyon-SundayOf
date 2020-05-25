@@ -1,0 +1,82 @@
+<html>
+<head>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <title>Title</title>
+</head>
+
+<body>
+
+    <h1> WE'RE A TEAM THAT ADORE WHAT WE DO </h1>
+
+    <div class="MainBox">
+        <div class="code"><img src="css/John.png"><div class="text">John Snow</div>
+        </div>
+        <div class="computer"><img src="css/Cersei.png"><div class="text">Cersei Lannister</div></div>
+        <div class="heart"><img src="css/Janei.png"><div class="text">Janei Lannister</div></div>
+    </div>
+    <div class="secondbox">
+        <div class="box1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget sem vel orci cursus dictum blandit in erat. Praesent ultricies lectus dolor, cursus vehicula elit laoreet non. Etiam suscipit arcu lectus, in tempor lectus molestie eget.</div>
+        <div class="box1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget sem vel orci cursus dictum blandit in erat. Praesent ultricies lectus dolor, cursus vehicula elit laoreet non. Etiam suscipit arcu lectus, in tempor lectus molestie eget.</div>
+        <div class="box1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget sem vel orci cursus dictum blandit in erat. Praesent ultricies lectus dolor, cursus vehicula elit laoreet non. Etiam suscipit arcu lectus, in tempor lectus molestie eget.</div>
+    </div>
+   <div class="MainBox">
+    <div class="MainBox">
+        <div class="cod"><img src="css/vk.png" height="25px" width="25px"></div>
+    <div class="code1"><img src="css/3.png"></div>
+<div class="code1"><img src="css/2.png"></div></div>
+          <div class="MainBox">
+        <div class="cod"><img src="css/vk.png" height="25px" width="25px"></div>
+    <div class="code1"><img src="css/3.png"></div>
+<div class="code1"><img src="css/2.png"></div></div>
+  <div class="MainBox">
+        <div class="cod"><img src="css/vk.png" height="25px" width="25px"></div>
+    <div class="code1"><img src="css/3.png"></div>
+<div class="code1"><img src="css/2.png"></div></div>
+    </div>
+    <script type="text/javascript">
+        let coode = document.querySelector('.code');
+        function code() {alert ("John Snow");}
+        coode.addEventListener('click', code);
+        let comp = document.querySelector('.computer');
+        function computer() {alert ("Cersei Lannister");}
+        comp.addEventListener('click', computer);
+        let hea = document.querySelector('.heart');
+        function heart() {alert ("Janei Lannister");}
+        hea.addEventListener('click', heart); 
+    </script>
+
+    <p align="center" class="header">DROP US A LINE</p>
+    	<div class="contact" id="contact"> </div>
+	<div class="MainBox">
+    <div class="MainBox">
+    	<div class="MainBox"><div class="cod"><a href="https://vk.com/id170007496"><img src="css/vk.png" height="25px" width="25px"></a></div>
+		<div class="code1"><img src="css/3.png"></div>
+		<div class="code1"><img src="css/2.png"></div></div>
+    </div>
+     <div class="footer"> Terms & Coditions | legals </div>
+ 	</div>
+
+ <script>
+ 	class NewContact{
+ 		constructor(src, title, info){ this.src = src; this.title = title; this.info = info;}}
+ 	let adr = new NewContact("css/pin.png", "Adress", "Pushkin's Street, Kolotushkin's house")
+ 	let phn = new NewContact("css/phone.png", "Phone", "+88005553535")
+ 	let eml = new NewContact("css/message.png", "Email", "Example@gmail.com")
+ 	let contact_array = [adr, phn, eml]
+ 	let contact = document.getElementById('contact');
+ 	contact_array.forEach(
+ 		function(pic){
+ 			let html = `<div class="block">
+ 			<img src="${pic.src}">
+ 			<p class="contact_txt" style="color: #57d0bd">${pic.title}</p>
+ 			<p style="color: black;font-size: 21px;font-family: 'Caveat';font-weight: bold;
+ 			">${pic.info}</p></div>`
+ 			let gghf = document.createElement('div');
+ 			gghf.innerHTML = html;
+ 			contact.appendChild(gghf);
+ 		})
+ </script>
+</body>
+</html>
